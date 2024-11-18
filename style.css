@@ -1,0 +1,68 @@
+/* Reset de estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff93f1;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    font-size: 2rem;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.banner {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+}
+
+.base{
+    width: 35%;
+}
+
+.batom{
+    width: 50%;
+}
+.sombra{
+    width: 50%;
+}

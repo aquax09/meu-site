@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de maquiagem com produtos exclusivos e ofertas especiais.">
+    <title>Hudabeautys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Huda Beauty</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Maquiagem para Todos os Estilos!</h2>
+        <p>Explore nossa linha de produtos para destacar ainda mais sua beleza!</p>
+    </section>
+
+    <section id="produtos" class="base">
+        <h2>Produtos em Destaque</h2>
+        <div class="product-cards">
+            <div class="product-card">
+                <img class="base" src="boca_rosa_base_liquida_payot_maria_1_3553_1_20231129163220.webp" alt="Base líquida">
+                <h3>Base Líquida</h3>
+                <p>Base de alta cobertura para uma pele perfeita. Disponível em diversas tonalidades.</p>
+                <span class="price">R$ 79,90</span>
+                <button>Comprar</button>
+            </div>
+            <div class="batom">
+                <img class= "batom" src="D_NQ_NP_965756-MLB70715009284_072023-O.webp" alt="Batom Matte">
+                <h3>Batom Matte</h3>
+                <p>Batom de longa duração com acabamento matte e cores vibrantes.</p>
+                <span class="price">R$ 39,90</span>
+                <button>Comprar</button>
+            </div>
+            <div class="sombra">
+                <img class="sombra"src="241271388dd9049213f.webp" alt="Paleta de Sombras">
+                <h3>Paleta de Sombras</h3>
+                <p>Paleta com 12 cores vibrantes para criar looks deslumbrantes.</p>
+                <span class="price">R$ 129,90</span>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="name">Huda beaty</label>
+            <input type="text" id="name" name="Hudabeauty" placeholder="">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="@Maquiagemparatodos.com">
+            <label for="message">Mensagem</label>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Loja de Maquiagem | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão com JavaScript</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ff95ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ff91e7;
+    }
+  </style>
+</head>
+<body>
+  <h1>Brinde Grátis</h1>
+  <button id="meuBotao">Resgate aqui</button>
+
+  <script>
+    // Seleciona o botão pelo ID
+    const botao = document.getElementById("meuBotao");
+
+    // Adiciona um evento de clique ao botão
+    botao.addEventListener("click", function () {
+      alert("Você clicou no botão!");
+    });
+  </script>
+</body>
+</html>
